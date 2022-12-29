@@ -1,4 +1,4 @@
-## KUANTOKUSTA-TEST-PERFORMANCE
+## PERFORMANCE TESTING
 [steps to install]: https://k6.io/docs/getting-started/installation/
 
 ##### Prerequisites
