@@ -3,6 +3,9 @@
 [InfluxDB]: https://docs.influxdata.com/influxdb/v2.6/get-started/
 [Grafana]: https://grafana.com/docs/grafana/latest/introduction/
 
+### The purpose of the project:
+> The goal is to create a performance test template with the K6 tool, and as new updates come out, I have the opportunity to put them into practice with this project, new performance testing strategies, and also how to show metrics with greater effectiveness...
+
 ### Technology used in the project:
 * [K6] - is an open-source load testing tool
 * [InfluxDB] - is a high-speed read and write database
@@ -30,7 +33,6 @@
 
 1. ###### Requires that InfluxDB and Grafana are already running in the background. Run the command below:
      `docker compose -f ./docker-compose.yml up -d influxdb grafana`
-    > Ps.: The docker images will be downloaded, configured and executed as detached (-d) background processes.
 
 ##### Tests
 
