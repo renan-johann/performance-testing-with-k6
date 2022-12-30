@@ -6,6 +6,8 @@
 ### The purpose of the project:
 > The goal is to create a performance test template with the K6 tool, and as new updates come out, I have the opportunity to put them into practice with this project, new performance testing strategies, and also how to show metrics with greater effectiveness...
 
+-------------------------------------------------
+
 ### Technology used in the project:
 * [K6] - is an open-source load testing tool
 * [InfluxDB] - is a high-speed read and write database
@@ -20,13 +22,6 @@
 
 -------------------------------------------------
 
-### How to check it out matrix from tests results:
-
-###### Open a browser to http://localhost:3000/d/k6/k6-load-testing-results and I’ll have an view of my load test streaming across the page in real-time:
-![docker image](./images/grafana.png)
-
--------------------------------------------------
-
 ### How to run the tests:
 
 ##### Before tests
@@ -38,6 +33,13 @@
 
 2. ###### Run K6 tests:
     `docker compose -f ./docker-compose.yml run k6 run /scripts/tests/product_page/client_side_requestes.test.js`
+
+-------------------------------------------------
+
+### How to check it out matrix from tests results:
+
+###### Open a browser to http://localhost:3000/d/k6/k6-load-testing-results and I’ll have an view of my load test streaming across the page in real-time:
+![docker image](./images/grafana.png)
 
 -------------------------------------------------
 
@@ -63,7 +65,6 @@
 ├── docker-compose.yml
 ├── grafana-dashboard.yaml
 ├── grafana-datasource.yaml
-├── index.js
 ├── package-lock.json
 ├── package.json
 └── README.md
